@@ -1,0 +1,8 @@
+services:
+    _defaults: { public: true }
+
+    softwaresystem_roxy_fileman.local_file_system:
+        class: Softwaresystem\RoxyFilemanBundle\FileSystem\LocalFileSystem
+        arguments: ['%softwaresystem_roxyfileman.local_file_system.base_path%', '%softwaresystem_roxyfileman.local_file_system.base_url%']
+
+    softwaresystem_roxy_fileman.file_system: "@softwaresystem_roxy_fileman.local_file_system"

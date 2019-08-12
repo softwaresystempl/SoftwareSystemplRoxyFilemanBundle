@@ -1,0 +1,75 @@
+
+softwaresystem_roxyfileman_conf:
+    path:     /resources/conf.json
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Conf:conf }
+
+softwaresystem_roxyfileman_index:
+    path:     /resources/index.html
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Resources:resource, file: 'index.html' }
+
+softwaresystem_roxyfileman_resource:
+    path:     /resources/{file}
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Resources:resource }
+    requirements:
+        file: '[a-zA-Z0-9\-\/\._]+\.(?:css|html|js|json|gif|png)'
+
+softwaresystem_roxyfileman_dir_list:
+    path:     /api/dirList
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:dirList }
+
+softwaresystem_roxyfileman_create_dir:
+    path:     /api/createDir
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:createDir }
+
+softwaresystem_roxyfileman_delete_dir:
+    path:     /api/deleteDir
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:deleteDir }
+
+softwaresystem_roxyfileman_move_dir:
+    path:     /api/moveDir
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:moveDir }
+
+softwaresystem_roxyfileman_copy_dir:
+    path:     /api/copyDir
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:copyDir }
+
+softwaresystem_roxyfileman_rename_dir:
+    path:     /api/renameDir
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:renameDir }
+
+softwaresystem_roxyfileman_file_list:
+    path:     /api/fileList
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:fileList }
+
+softwaresystem_roxyfileman_upload:
+    path:     /api/upload
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:upload }
+
+softwaresystem_roxyfileman_download:
+    path:     /api/download
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:download }
+
+softwaresystem_roxyfileman_download_dir:
+    path:     /api/downloadDir
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:downloadDir }
+
+softwaresystem_roxyfileman_delete_file:
+    path:     /api/deleteFile
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:deleteFile }
+
+softwaresystem_roxyfileman_move_file:
+    path:     /api/moveFile
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:moveFile }
+
+softwaresystem_roxyfileman_copy_file:
+    path:     /api/copyFile
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:copyFile }
+
+softwaresystem_roxyfileman_rename_file:
+    path:     /api/renameFile
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:renameFile }
+
+softwaresystem_roxyfileman_generate_thumb:
+    path:     /api/generateThumb
+    defaults: { _controller: SoftwaresystemRoxyFilemanBundle:Directory:generateThumb }
+
