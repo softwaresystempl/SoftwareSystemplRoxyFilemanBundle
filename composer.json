@@ -1,7 +1,7 @@
 {
   "name": "softwaresystem/roxyfileman-bundle",
   "type": "symfony-bundle",
-  "description": "Provides a Roxyfileman integration for your Symfony2 Project, mainly for ckeditor and tinymce.",
+  "description": "Provides a Roxyfileman integration for your Symfony4 Project, mainly for FOSckeditor and tinymce.",
   "keywords": [ "roxyfileman", "ckeditor", "tinymce" ],
   "license": "MIT",
   "authors": [
