@@ -1,8 +1,8 @@
 {
   "name": "softwaresystem/roxyfileman-bundle",
   "type": "symfony-bundle",
-  "description": "Provides a Roxyfileman integration for your Symfony4 Project, mainly for FOSckeditor and tinymce.",
-  "keywords": [ "roxyfileman", "ckeditor", "tinymce" ],
+  "description": "Provides a Roxyfileman integration for your Symfony5 Project, mainly for FOSckeditor.",
+  "keywords": [ "roxyfileman", "ckeditor"],
   "license": "MIT",
   "authors": [
     {
@@ -11,8 +11,8 @@
     }
   ],
   "require": {
-    "php": ">=7.2.0",
-    "symfony/framework-bundle": "~3.0|~4.0||~5.99"
+    "php": ">=7.3.0",
+    "symfony/framework-bundle": "~3.0|~4.0|~5.99"
   },
   "suggest": {
     "twig/twig": "Allows to use twig templates",
