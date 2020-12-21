@@ -1,6 +1,6 @@
 # README
 
-The bundle provide a [Roxyfileman](http://www.roxyfileman.com/) integration for Symfony4. It works well with [ FOSCKEditorBundle ](https://symfony.com/doc/current/bundles/FOSCKEditorBundle/installation.html).
+The bundle provide a [Roxyfileman](http://www.roxyfileman.com/) integration for Symfony5. It works well with [ FOSCKEditorBundle ](https://symfony.com/doc/current/bundles/FOSCKEditorBundle/installation.html).
 
 ## Documentation
 
